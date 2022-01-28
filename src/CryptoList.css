@@ -1,0 +1,29 @@
+.crypto-list{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.crypto-list .list li {
+    list-style: none;
+    border: 1px solid #ccc;
+    margin-top: 1px;
+    padding: 5px 25px;
+    font-weight: bold;
+}
+
+.crypto-list .list li span {
+    margin: 0 5px;
+}
+
+.rate-up {
+    color: green;
+}
+
+.rate-nochange {
+    color: blue;
+}
+
+.rate-down {
+    color: red;
+}
